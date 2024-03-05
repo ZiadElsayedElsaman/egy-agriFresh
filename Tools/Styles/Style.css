@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+nav {
+    height: 14vh;
+    width: 100% !important;
+    background-color: rgb(150, 235, 150 , 0.76)!important;
+
+}
+nav:hover{
+    color: black;
+    font-weight: 900;
+}
+nav .logo {
+    width: 85px;
+    height: 75px;
+
+}
+nav .nav-style li{
+    margin:  0 30px;
+    font-size: 20px !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+nav .nav-style li a{
+    color:rgb(0, 0, 0);
+}
+nav .nav-style li a:hover{
+    opacity: .3;
+}
+
+/* ******************************************** */
+#home {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../Imgs/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    
+}
+#home .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+#home .home-data
+{
+    width: 100%;
+    height: auto !important;
+    background-color: rgba(110, 109, 109, 0.5);
+    margin-top: 20% ;
+    padding: 25px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 100px;
+}
+#home .home-data h1 {
+    font-size: 45px;
+    padding: 15px;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+#home .home-data h3 {
+    color: rgb(54, 243, 54);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 15px;
+}
+#home .home-data p {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* ********************************************************* */
+#about {
+    overflow: hidden;
+    padding: 25px;
+}
+#about h1{
+    padding: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+#about h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 15px;
+
+}
+#about ul  {
+    padding: 15px;
+    list-style: '✅  ';
+}
+.div-img {
+    padding: 25px;
+}
+.about-img {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+/* **************************************************** */
+.product-data ul {
+    list-style: '📌 ';
+
+}
+.product-data  ul li {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+.product-data p {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.div-product-img {
+    padding: 15px;
+
+}
+.div-product-img  img{
+    display: block;
+    margin: 0 auto; 
+    border-radius: 25px;
+    width: 200px;
+    height: 220px;
+}
+
+
+/* *********************************************** */
+/* Start service Style */
+.service{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.service h1{
+    letter-spacing: 1px;
+    font-size: 60px;
+    color: rgb(54, 243, 54);
+
+}
+.service  p {
+    color: white;
+}
+
+/* Start Swiper Style */
+.swiper-slide .ser-content{
+    height: 50vh !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    box-shadow: 1px 1px 5px white;
+    border-radius: 25px;
+}
+.swiper-slide .ser-content p{
+    color: black;
+}
+
+.swiper-slide .ser-content img{
+    height: 50%;
+    object-fit: cover !important;
+}
+.swiper-button-next::after , .swiper-button-prev::after{
+    color: #fff;
+    background-color: rgb(54, 243, 54);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:  0 0 auto;
+    font-size: 20px !important;
+}
+
+/* End Swiper Style */
+
+/* *********************************************************** */
+.gool-style h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: rgb(54, 243, 54);
+
+}
+.gool-style h3 {
+    letter-spacing: 1px;
+    font-weight: 700;
+
+}
+.gool-style .h3-p{
+    font-size: 18px !important;
+}
+.gool-style ul {
+    list-style: '✅  ';
+}
+.gool-style ul li {
+    padding: 5px;
+}
+ /* ************************************************** */
+.together-style{
+    text-align: center;
+    background-image: url('../../Imgs/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+.together-style .overlay-together {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.together-style h1 {
+    font-size: 50px !important;
+    font-weight: 800 !important;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+.together-style p {
+    padding: 20px ;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/********************************************************************** */
+.footer {
+   
+    width: 100% !important;
+    overflow: hidden !important;
+    background-image: url('../../Imgs/footer.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.footer .overlay-footer{
+    overflow: hidden !important;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.footer img{
+    height: 120px;
+    border-radius: 10px;
+
+}
+.footer h3 {
+    color: rgb(54, 243, 54);
+    padding: 30px 0px;
+
+}
+.footer p {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+}
+.footer p .icon {
+    color: rgb(54, 243, 54);
+    cursor: pointer;
+    
+}
+
+.footer ul {
+    list-style: none;
+    
+}
+.footer ul li {
+    padding: 10px;
+
+}
+.footer ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    transition: 0.5s;
+}
+.footer ul li a:hover{
+    color: rgb(54, 243, 54);
+
+}
+.copy{
+    font-size: 22px !important;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+
+@media screen and (max-width: 576px) {
+    /* Your CSS styles for mobile phones here */
+    .sm-style{
+        background-color: #ffff;
+        height: 35vh;
+        opacity: 1 !important;
+        z-index: 11 !important;
+        border: 1px solid rgb(54, 243, 54);
+        border-radius: 25px;
+    }
+    .about-img {
+        width: 100%;
+    }
+}
